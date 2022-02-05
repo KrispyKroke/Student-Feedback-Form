@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 import {useEffect} from 'react';
 import './App.css';
 import FeelingForm from '../FeelingForm/FeelingForm';
@@ -7,6 +6,7 @@ import CommentsForm from '../CommentsForm/CommentsForm';
 import UnderstandingForm from '../UnderstandingForm/UnderstandingForm';
 import SupportForm from '../SupportForm/SupportForm';
 import WelcomeScreen from '../WelcomeScreen/WelcomeScreen';
+import Review from '../Review/Review';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 
@@ -32,6 +32,9 @@ function App() {
         </Route>
         <Route path="/comments">
           <CommentsForm />
+        </Route>
+        <Route path="/review">
+          <Review />
         </Route>
       </div>
     </Router>

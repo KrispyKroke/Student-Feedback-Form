@@ -15,7 +15,7 @@ function CommentsForm() {
             payload: currentComments
         });
         setCurrentComments('');
-    
+        history.push('/review');
     }
 
     return (
