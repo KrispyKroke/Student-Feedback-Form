@@ -7,6 +7,7 @@ import UnderstandingForm from '../UnderstandingForm/UnderstandingForm';
 import SupportForm from '../SupportForm/SupportForm';
 import WelcomeScreen from '../WelcomeScreen/WelcomeScreen';
 import Review from '../Review/Review';
+import SuccessPage from '../SuccessPage/SuccessPage';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route path="/review">
           <Review />
+        </Route>
+        <Route path="/success">
+          <SuccessPage />
         </Route>
       </div>
     </Router>
