@@ -1,5 +1,4 @@
-import React from 'react';
-import {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import FeelingForm from '../FeelingForm/FeelingForm';
 import CommentsForm from '../CommentsForm/CommentsForm';
@@ -13,10 +12,9 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   
-
   useEffect(() => {
 
-  },[]);
+  }, []);
 
   return (
     <Router>
