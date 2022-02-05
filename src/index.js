@@ -30,11 +30,20 @@ const supportReducer = (state = 0, action) => {
     return state;
 }
 
+const commentReducer = (state = '', action) => {
+    if (action.type === 'SUBMIT_COMMENT') {
+        let newState = action.payload;
+        return newState;
+    }
+    return state;
+}
+
 const storeInstance = createStore(
     combineReducers({
         feeling: feelingReducer,
         understanding: understandingReducer,
-        support: supportReducer
+        support: supportReducer,
+        comments: commentReducer
     })
 );
 
