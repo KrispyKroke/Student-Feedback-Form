@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
 
   }, []);
-
+// This is the structure of the app. Routes are set up to guide the user from page to page.
   return (
     <Router>
       <div className='App'>

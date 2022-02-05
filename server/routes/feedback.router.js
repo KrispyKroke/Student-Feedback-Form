@@ -2,7 +2,7 @@ const express = require('express');
 let router = express.Router();
 const pool = require('../modules/pool.js');
 
-
+// Server-side POST route for adding feedback to the database
 router.post('/', (req, res) => {
     const submission = req.body;
     const queryText = `INSERT INTO feedback ("feeling", "understanding", "support", "comments")

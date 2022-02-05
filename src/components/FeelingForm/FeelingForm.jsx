@@ -8,7 +8,8 @@ function FeelingForm() {
     const [currentFeeling, setCurrentFeeling] = useState('');
     const history = useHistory();
 
-
+    // This component funcions similarly to the other 3 pages which collect feedback.
+    // It makes a dispatch to store data in its reducer.
     function submitFeeling() {
         if (currentFeeling === '') {
             alert('Please do not leave the input blank!');

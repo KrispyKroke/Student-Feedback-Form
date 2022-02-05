@@ -8,7 +8,7 @@ function CommentsForm() {
     const dispatch = useDispatch();
     const [currentComments, setCurrentComments] = useState('');
 
-
+    // Function makes a dispatch to store the comment in its reducer
     function submitComments() {
         dispatch({
             type: 'SUBMIT_COMMENT',
@@ -17,10 +17,11 @@ function CommentsForm() {
         setCurrentComments('');
         history.push('/review');
     }
-
+    // Added the ability to go back to the previous page on button click
     return (
         <>
             <h3>Any Comments you want to leave?</h3><br/>
+            <button onClick={() => history.push('/support')}>Previous</button>
             <input type="text" value={currentComments} onChange={event => setCurrentComments(event.target.value)} />
             <button onClick={submitComments}>Next</button>
         </>

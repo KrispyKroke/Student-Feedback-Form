@@ -15,7 +15,8 @@ function WelcomeScreen() {
         });
         history.push('/feeling');
     }
-
+    // I used conditional rendering and a dispatch to a reducer which stores a boolean that
+    // determines whether or not the welcome text and button is shown.
     return (
         <>
             <header className='App-header'>

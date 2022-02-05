@@ -5,6 +5,7 @@ import App from './components/App/App';
 import registerServiceWorker from './registerServiceWorker';
 import {Provider} from 'react-redux';
 import {createStore, combineReducers} from 'redux';
+// This file stores all reducers and our store
 
 const feelingReducer = (state = 0, action) => {
     if (action.type === 'SUBMIT_FEELING') {

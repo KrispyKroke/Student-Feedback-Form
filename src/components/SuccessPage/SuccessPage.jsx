@@ -13,7 +13,7 @@ function SuccessPage() {
         history.push('/');
     }
 
-
+    // When the button below is clicked it makes a dispatch to reset all reducers and return to the welcome screen
     return (
         <>
             <h1>Thank you!</h1><br/>
