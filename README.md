@@ -1,9 +1,13 @@
-# Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+# Feedback Form
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+For this project, I developed an application which collects feedback from a user through a number of forms, displays this feedback, and submits it to a database.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+I split up the assignment over several components.  Each component handled a single page of the application.  I also included an admin page which could be accessed via a passphrase on the home page.  The admin page displays all feedback stored in the database in a table.
+
+I used several reducers to store temporary data globally, and had to set up a POST, GET, and DELETE route for the submission and deletion of data and its display on the admin page.
+
+Lastly, I made ample use of routes and the useHistory hook to navigate to different pages.
+
+
