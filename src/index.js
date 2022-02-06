@@ -55,10 +55,12 @@ const startReducer = (state = false, action) => {
     }
     return state;
 }
-
+// Had to use the .filter method to delete a specific item from the admin table
 const adminReducer = (state = [], action) => {
     if (action.type === 'ADD_FEEDBACK') {
-        return [...state, ...action.payload];
+        return action.payload;
+    } else if (action.type === 'REMOVE_ITEM') {
+        return state.filter(feedback => feedback.id !== action.payload.id);
     }
     return state;
 }

@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
         res.sendStatus(500);
     });
 });
-
+// Server-side DELETE route for deleting item from admin table, targeting by id 
 router.delete('/:id', (req, res) => {
     let feedbackID = req.params.id;
     let queryText= 'DELETE FROM feedback WHERE "id" = $1;';

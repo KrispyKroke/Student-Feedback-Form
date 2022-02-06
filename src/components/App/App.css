@@ -34,7 +34,7 @@ button {
   font-size: 25px;
 }
 
-.beginBtn, .adminBtn {
+.beginBtn, .adminBtn, .homeButton {
   background-color: #033076;
   color: white;
 }
@@ -90,3 +90,14 @@ table {
   background-color: crimson;
   color: white;
 }
+
+.deleteBtn:hover {
+  font-size: medium;
+}
+
+.backToHomeDiv {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
