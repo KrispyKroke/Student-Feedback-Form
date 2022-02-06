@@ -56,13 +56,21 @@ const startReducer = (state = false, action) => {
     return state;
 }
 
+const adminReducer = (state = [], action) => {
+    if (action.type === 'ADD_FEEDBACK') {
+        return [...state, ...action.payload];
+    }
+    return state;
+}
+
 const storeInstance = createStore(
     combineReducers({
         feeling: feelingReducer,
         understanding: understandingReducer,
         support: supportReducer,
         comments: commentReducer,
-        start: startReducer
+        start: startReducer,
+        userData: adminReducer
     })
 );
 

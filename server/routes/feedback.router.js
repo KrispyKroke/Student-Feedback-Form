@@ -29,6 +29,16 @@ router.get('/', (req, res) => {
     });
 });
 
+router.delete('/:id', (req, res) => {
+    let feedbackID = req.params.id;
+    let queryText= 'DELETE FROM feedback WHERE "id" = $1;';
+    pool.query(queryText, [feedbackID]).then(() => {
+        res.sendStatus(204);
+    }).catch(err => {
+        console.log(err);
+        res.sendStatus(500);
+    });
+});
 
 
 
