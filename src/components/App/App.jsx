@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import FeelingForm from '../FeelingForm/FeelingForm';
 import CommentsForm from '../CommentsForm/CommentsForm';
@@ -7,14 +7,14 @@ import SupportForm from '../SupportForm/SupportForm';
 import WelcomeScreen from '../WelcomeScreen/WelcomeScreen';
 import Review from '../Review/Review';
 import SuccessPage from '../SuccessPage/SuccessPage';
+import AdminPage from '../AdminPage/AdminPage';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 
 function App() {
-  
-  useEffect(() => {
+ 
 
-  }, []);
+
 // This is the structure of the app. Routes are set up to guide the user from page to page.
   return (
     <Router>
@@ -37,6 +37,9 @@ function App() {
         </Route>
         <Route path="/success">
           <SuccessPage />
+        </Route>
+        <Route path="/admin">
+          <AdminPage />
         </Route>
       </div>
     </Router>
