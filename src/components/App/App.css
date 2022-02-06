@@ -34,7 +34,7 @@ button {
   font-size: 25px;
 }
 
-.beginBtn {
+.beginBtn, .adminBtn {
   background-color: #033076;
   color: white;
 }
@@ -63,4 +63,14 @@ h3 {
 
 .resetBtn {
   border-radius: 10%;
+}
+
+.adminBtn {
+  margin-left: 20px;
+}
+
+.adminPortal {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
 }
