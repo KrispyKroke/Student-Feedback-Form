@@ -20,12 +20,12 @@ function Review() {
     return (
         <>
             <h2>Review your feedback</h2><br/>
-            <button onClick={() => history.push('/comments')}>Go back</button><br/>
+            <button className="prevBtn" onClick={() => history.push('/comments')}>Go back</button><br/>
             <h4>Feelings: {allValues.feeling}</h4><br/>
             <h4>Understanding: {allValues.understanding}</h4><br/>
             <h4>Support: {allValues.support}</h4><br/>
             <h4>Comments: {allValues.comments}</h4><br/>
-            <button onClick={submitData}>Submit</button>
+            <button className="submitBtn" onClick={submitData}>Submit</button>
         </>
     );
 }

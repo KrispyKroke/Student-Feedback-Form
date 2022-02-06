@@ -27,8 +27,8 @@ function FeelingForm() {
     return (
         <>
             <h3>How are you feeling today?</h3><br/>
-            <input value={currentFeeling} onChange={event => setCurrentFeeling(event.target.value)} type="number"/>
-            <button onClick={submitFeeling}>Next</button>
+            <input className="feedback" value={currentFeeling} onChange={event => setCurrentFeeling(event.target.value)} type="number"/>
+            <button className="nextBtn" onClick={submitFeeling}>Next</button>
         </>
     );
 }

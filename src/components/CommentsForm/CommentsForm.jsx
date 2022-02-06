@@ -21,9 +21,9 @@ function CommentsForm() {
     return (
         <>
             <h3>Any Comments you want to leave?</h3><br/>
-            <button onClick={() => history.push('/support')}>Previous</button>
-            <input type="text" value={currentComments} onChange={event => setCurrentComments(event.target.value)} />
-            <button onClick={submitComments}>Next</button>
+            <button className="prevBtn" onClick={() => history.push('/support')}>Previous</button>
+            <input className="feedback" type="text" value={currentComments} onChange={event => setCurrentComments(event.target.value)} />
+            <button className="nextBtn" onClick={submitComments}>Next</button>
         </>
     );
 }

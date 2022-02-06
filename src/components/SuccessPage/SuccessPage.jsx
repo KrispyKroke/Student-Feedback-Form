@@ -17,7 +17,7 @@ function SuccessPage() {
     return (
         <>
             <h1>Thank you!</h1><br/>
-            <button onClick={resetApplication}>Leave New Feedback</button>
+            <button className="resetBtn" onClick={resetApplication}>Leave New Feedback</button>
         </>
     );
 }

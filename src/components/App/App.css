@@ -21,3 +21,46 @@
 h4 {
   font-style: italic;
 }
+
+button:hover {
+  cursor: pointer;
+  font-size: 50px;
+  background-color: bisque;
+  color: indigo;
+}
+
+button {
+  border-radius: 35%;
+  font-size: 25px;
+}
+
+.beginBtn {
+  background-color: #033076;
+  color: white;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.nextBtn {
+  background-color: lightgreen;
+  color: black;
+  margin-left: 20px;
+}
+
+.prevBtn {
+  margin-right: 20px;
+  background-color: crimson;
+  color: white;
+}
+
+.submitBtn {
+  background-color: #033076;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.resetBtn {
+  border-radius: 10%;
+}

@@ -29,9 +29,9 @@ function SupportForm() {
     return (
         <>
             <h3>How well are you being supported?</h3><br/>
-            <button onClick={() => history.push('/understanding')}>Previous</button>
-            <input type="number" value={currentSupport} onChange={event => setCurrentSupport(event.target.value)} />
-            <button onClick={submitSupport}>Next</button>
+            <button className="prevBtn" onClick={() => history.push('/understanding')}>Previous</button>
+            <input className="feedback" type="number" value={currentSupport} onChange={event => setCurrentSupport(event.target.value)} />
+            <button className="nextBtn" onClick={submitSupport}>Next</button>
         </>
     );
 }
