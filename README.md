@@ -18,5 +18,8 @@ This is what you will see when you first boot up the app.
 
 <img width="949" alt="Screen Shot 2022-03-20 at 2 41 56 PM" src="https://user-images.githubusercontent.com/91631646/159179985-2150388b-b19d-4d77-b66f-a54a3fa8f8cf.png">
 
+## Feeling Page
+
+On this page you will enter a number between 1 and 5 to describe how you are feeling.  It is important to note that you are required to enter a number, but there is no input validation to contrain you between 1 and 5.
 
 
