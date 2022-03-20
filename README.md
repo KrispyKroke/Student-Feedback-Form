@@ -23,3 +23,9 @@ This is what you will see when you first boot up the app.
 On this page you will enter a number between 1 and 5 to describe how you are feeling.  It is important to note that you are required to enter a number, but there is no input validation to contrain you between 1 and 5.
 
 <img width="677" alt="Screen Shot 2022-03-20 at 2 42 17 PM" src="https://user-images.githubusercontent.com/91631646/159180025-bbb58609-e55b-4d5f-b39d-d79c92ad0c6d.png">
+
+## Understanding Page
+
+Same as the previous page, but for comprehension of content.  You can also go back to change your previous answer.
+
+<img width="713" alt="Screen Shot 2022-03-20 at 2 42 26 PM" src="https://user-images.githubusercontent.com/91631646/159181480-4fd0eb75-ba54-459c-bfa2-7bb9c584d648.png">
