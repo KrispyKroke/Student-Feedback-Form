@@ -53,3 +53,9 @@ Here you can see all of your feedback and submit it if it looks good.
 After you confirm your feedback, the app thanks you and allows you to submit new feedback.
 
 <img width="638" alt="Screen Shot 2022-03-20 at 2 44 02 PM" src="https://user-images.githubusercontent.com/91631646/159183855-37f131ce-be52-4e90-b9a0-eaddf8703002.png">
+
+## Admin View
+
+If you have the right credentials (password is 'KrispyKroke'), you can see a table of all feedback submitted and stored in your database.  It should be noted that navigating to the /admin route manually through the url will show this table as well.
+
+<img width="942" alt="Screen Shot 2022-03-20 at 3 07 24 PM" src="https://user-images.githubusercontent.com/91631646/159183955-77ae0525-544d-43fe-b8b8-e5f42a6972b4.png">
