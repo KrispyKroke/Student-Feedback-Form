@@ -35,3 +35,9 @@ Same as the previous page, but for comprehension of content.  You can also go ba
 Nearly identical to the two previous pages, but for support.
 
 <img width="772" alt="Screen Shot 2022-03-20 at 2 43 33 PM" src="https://user-images.githubusercontent.com/91631646/159183005-f8261d25-2278-449e-85dc-cdcc42cc108e.png">
+
+## Comments
+
+Although the field is optional, you can enter any additional comments here.
+
+<img width="699" alt="Screen Shot 2022-03-20 at 2 43 44 PM" src="https://user-images.githubusercontent.com/91631646/159183608-6fd087b4-c7c5-4962-bb98-5e08b38059c2.png">
