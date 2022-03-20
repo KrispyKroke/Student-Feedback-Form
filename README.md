@@ -47,3 +47,9 @@ Although the field is optional, you can enter any additional comments here.
 Here you can see all of your feedback and submit it if it looks good.
 
 <img width="773" alt="Screen Shot 2022-03-20 at 2 43 52 PM" src="https://user-images.githubusercontent.com/91631646/159183690-c12906c9-e261-4f4c-8574-26e147ac34a3.png">
+
+## Thank You Page
+
+After you confirm your feedback, the app thanks you and allows you to submit new feedback.
+
+<img width="638" alt="Screen Shot 2022-03-20 at 2 44 02 PM" src="https://user-images.githubusercontent.com/91631646/159183855-37f131ce-be52-4e90-b9a0-eaddf8703002.png">
