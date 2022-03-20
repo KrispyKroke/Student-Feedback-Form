@@ -59,3 +59,21 @@ After you confirm your feedback, the app thanks you and allows you to submit new
 If you have the right credentials (password is 'KrispyKroke'), you can see a table of all feedback submitted and stored in your database.  It should be noted that navigating to the /admin route manually through the url will show this table as well.
 
 <img width="942" alt="Screen Shot 2022-03-20 at 3 07 24 PM" src="https://user-images.githubusercontent.com/91631646/159183955-77ae0525-544d-43fe-b8b8-e5f42a6972b4.png">
+
+## Prerequisites
+
+Before you get started, make sure you have the following software installed on your computer:
+
+- [Node.js](https://nodejs.org/en/)
+- [PostrgeSQL](https://www.postgresql.org/)
+- [Nodemon](https://nodemon.io/)
+
+## Installation
+
+1. Fork the repository and clone it to your machine.
+2. Create a database in Postico called `wow_zone_guide_solo_project`.
+3. Insert the queries from the database.sql file and run them to populate the database.
+4. Open up your terminal, navigate to the project folder, and run an `npm install`.
+5. Start your server with `npm run server`.
+6. Start up your client with `npm run client`.
+7. Navigate to localhost:3000 if you have not automatically.
