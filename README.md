@@ -29,3 +29,9 @@ On this page you will enter a number between 1 and 5 to describe how you are fee
 Same as the previous page, but for comprehension of content.  You can also go back to change your previous answer.
 
 <img width="713" alt="Screen Shot 2022-03-20 at 2 42 26 PM" src="https://user-images.githubusercontent.com/91631646/159181480-4fd0eb75-ba54-459c-bfa2-7bb9c584d648.png">
+
+## Support Page
+
+Nearly identical to the two previous pages, but for support.
+
+<img width="772" alt="Screen Shot 2022-03-20 at 2 43 33 PM" src="https://user-images.githubusercontent.com/91631646/159183005-f8261d25-2278-449e-85dc-cdcc42cc108e.png">
