@@ -10,4 +10,12 @@ I used several reducers to store temporary data globally, and had to set up a PO
 
 Lastly, I made ample use of routes and the useHistory hook to navigate to different pages.
 
+## Screenshots
+
+## Landing Page
+
+This is what you will see when you first boot up the app.
+
+
+
 
