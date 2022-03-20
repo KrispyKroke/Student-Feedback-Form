@@ -71,9 +71,33 @@ Before you get started, make sure you have the following software installed on y
 ## Installation
 
 1. Fork the repository and clone it to your machine.
-2. Create a database in Postico called `wow_zone_guide_solo_project`.
-3. Insert the queries from the database.sql file and run them to populate the database.
+2. Create a database in Postico called `prime_feedback`.
+3. Insert the queries from the data.sql file and run them to populate the database.
 4. Open up your terminal, navigate to the project folder, and run an `npm install`.
 5. Start your server with `npm run server`.
 6. Start up your client with `npm run client`.
 7. Navigate to localhost:3000 if you have not automatically.
+
+## Usage
+
+1. When you boot up the app, click begin to start the form.
+2. Enter a number between 1 and 5 for the first 3 forms.  
+3. You can also go back to previous forms if you wish.  Otherwise, just click the 'Next' button to navigate through the forms.
+4. On the comments form, you may leave a comment if you wish.  You may also leave it blank.
+5. After you move past the comments form, you will be able to review your feedback.
+6. After submitting the feedback to your database, you can leave new feedback by clicking the appropriate button.
+7. Lastly, on the landing page, you can navigate to the admin view if you enter the password 'KrispyKroke' in the input box at the bottom left of the screen.
+8. On this page, you will be able to view all feedback stored in your database, with the option to delete feedback if you wish.
+
+## Built With
+
+- React
+- Redux
+- SQL
+- Express
+- Javascript
+- CSS
+
+## Support
+
+If you have suggestions or issues, feel free to contact me at jared.kroke@gmail.com.
